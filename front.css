@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.whole {
+    background: linear-gradient(45deg, red,orange ,blue) center center/cover;
+}
+.top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    border-bottom: 2px solid orangered;
+}
+.top a h1 {
+    font-size: 40px;
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.993);
+}
+.l {
+    padding-right: 30px;
+    text-decoration: none;
+}
+.l h2 {
+    padding: 10px;
+    background: linear-gradient(45deg, blue,orange ,red);
+    font-size: 17px;
+    border-radius: 13px;
+    color: black;
+    transition-delay: 0.3s;
+    border: 1px solid pink;
+}
+.l h2:hover {
+    background: linear-gradient(45deg, red,orange ,blue);
+}
+.mid {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    width: 100%;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: white;
+}
+.mid h1 {
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+}
+.on {
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.mid ul {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mid ul li p {
+    padding: 10px 35px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    transition: 0.3s;
+    font-weight: 600;
+}
+.mid ul li {
+    list-style: none;
+    padding: 2px;
+    cursor: pointer;
+}
+.mid ul li p:hover {
+    letter-spacing: 2px;
+    filter: invert(1);
+}
+.of {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+.bottom {
+    position: relative;
+    height: 73px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: invert(1);
+}
+.bottom div {
+    display: flex;
+    padding-right: 30px;
+}
+.b {
+    height: 40px;
+    transition: 0.3s;
+    padding: 0px 1px;
+}
+.bottom div img:hover {
+    filter: invert(1);
+    height: 45px;
+}
+.wp {
+    height: 33px;
+}
+.midd {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+}
+.ims img{
+    height: 30vw;
+    min-height: 250px;
+    padding: 0px 0px 25px 0px;
+}
+.ims {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.liss {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.liss a {
+    padding: 0px 2px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.liss p {
+    padding: 10px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 500;
+
+}
+.liss p:hover {
+    color: white;
+    border: 2px solid white;
+    letter-spacing: 1px;
+}
+.wonn {
+    cursor: pointer;
+}
+.tooo {
+    cursor: pointer;
+}
+.treee {
+    cursor: pointer;
+}
+.won {
+    display: flex;
+}
+.two {
+    display: none;
+}
+.tree {
+    display: none;
+}

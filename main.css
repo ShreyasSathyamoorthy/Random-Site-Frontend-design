@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+.one {
+    text-align: center;
+}
+.one h1 {
+    padding: 20px 0px;
+    text-align: center;
+    background: url(http://assets.stickpng.com/images/588a6507d06f6719692a2d15.png);
+}
+.logo {
+    font-size: 40px;
+    font-weight: 850;
+    color: rgb(20, 34, 29);
+    cursor: pointer;
+}
+.login {
+    font-weight: 100;
+    font-size: 40px;
+    color: black;
+}
+.o, .login {
+    padding: 10px 0px;
+}
+.o {
+    color: rgb(102, 102, 102);
+}
+.w {
+    width: 250px;
+    height: 20px;
+    border-radius: 50px;
+    border-color: rgb(216, 215, 215);
+    outline: none;
+    padding: 0px 15px;
+}
+.one .check {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 30px 0px ;
+}
+.check p {
+    padding: 0px 10px;
+}
+a {
+    text-decoration: none;
+}
+.l {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ll {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: rgb(20, 34, 29);
+}
+.lll {
+    color: black;
+    padding-bottom: 18px;
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(20, 34, 29);
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.two h3 {
+    padding: 30px 0px ;
+    font-size: 25px;
+    font-weight: 100;
+}
+.two div {
+    padding: 40px 0px;
+}
+.two div a {
+    color:black;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+@media (min-width:700px){
+    @media (min-width:1129px) {
+        .one , .two {
+            max-width: 47vw;
+            border-color: red;
+            border-radius: 0px 50px 50px 0px ;
+        }
+        .one {
+            background-color: white;
+        }
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+    }
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.one , .two {
+    width: 50vw;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
