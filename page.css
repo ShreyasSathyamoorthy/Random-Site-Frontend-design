@@ -86,3 +86,12 @@
     background-color: white;
     border-radius: 20px;
 }
+@media (max-width:500px) {
+    .mid div {
+        display: flex;
+        flex-direction: column;
+    }
+    .mid {
+        height: 650px;
+    }
+}
